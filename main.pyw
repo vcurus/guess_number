@@ -14,8 +14,8 @@ BLACK = (0, 0, 0)
 OUTSIDE_BG = (-100, -100)
 
 pygame.init()
-screen = pygame.display.set_mode((W, H))
 pygame.display.set_caption('Угадай число')
+screen = pygame.display.set_mode((W, H))
 
 font = pygame.font.SysFont('Arial', 28, True, False)
 font_box = pygame.Surface((W - font.get_height(), font.get_height()))
