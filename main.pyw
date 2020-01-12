@@ -15,6 +15,7 @@ OUTSIDE_BG = (0, -100)
 
 pygame.init()
 pygame.display.set_caption('Угадай число')
+pygame.mouse.set_visible(False)
 screen = pygame.display.set_mode((W, H))
 
 font = pygame.font.SysFont('Arial', 28, True, False)
