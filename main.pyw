@@ -100,11 +100,12 @@ while run:
         font_box.fill(SILVER)
         font_box.blit(
             font.render(numeral, True, BLACK), (10, 0))
+    pygame.display.update()
+
     if start == 1:
         dialogs('', OUTSIDE_BG, 'Я загадала число')
         dialogs('', OUTSIDE_BG, 'от 0 до 100')
         dialogs('Кот, твой ход', dialog_dog_pos, 'Отгадайте его')
         start = 0
-    pygame.display.update()
 
 pygame.quit()
