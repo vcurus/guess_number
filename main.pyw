@@ -11,7 +11,7 @@ W = 480
 H = 360
 SILVER = (192, 192, 192)
 BLACK = (0, 0, 0)
-OUTSIDE_BG = (-100, -100)
+OUTSIDE_BG = (0, -100)
 
 pygame.init()
 pygame.display.set_caption('Угадай число')
